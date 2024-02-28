@@ -2,7 +2,7 @@
 # Transit Gateway
 ########################################################
 data "aws_ec2_transit_gateway" "existing_tgw" {
-  id = "tgw-0a3dc5f05067e6899"
+  id = ""
 }
 
 # Route Table - FGT VPC
