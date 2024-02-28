@@ -1,0 +1,1 @@
+aws ec2 create-key-pair --key-name USE-SDC-FGTVM --query 'KeyMaterial' --output text > USE-SDC-FGTVM.pem
